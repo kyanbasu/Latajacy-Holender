@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CL",
+    "LC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "L": [
+      {
+        "item": "quark:limestone"
+      },
+      {
+        "item": "minecraft:diorite"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:andesite",
+    "count": 4
+  }
+}

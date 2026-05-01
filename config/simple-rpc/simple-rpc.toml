@@ -32,7 +32,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["loading"]
 		#The text to show when someone hovers over the smallImage
@@ -58,7 +58,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -84,7 +84,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -110,7 +110,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -136,7 +136,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -158,11 +158,11 @@
 		#The first line of text under the app name
 		description = "Currently In {{world.name}}"
 		#The second line of text under the app name
-		state = "Playing lonely mode"
+		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -188,7 +188,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -214,7 +214,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -240,7 +240,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
@@ -264,7 +264,7 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["aeronautics"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft 2: Aeronautics update"
+		largeImageText = "{{custom.slug}}"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["icon"]
 		#The text to show when someone hovers over the smallImage
@@ -279,7 +279,13 @@
 	#Must these variables be parsed along with other variables
 	enabled = true
 	#Your custom variables to add
-	variables = []
+	#variables = []
+
+	[[custom.variables]]
+        #The name of your variable. Will be parsed into {{custom.variablename}}
+        name = "slug"
+        #The value that this variable will output
+        value = "It's Minecraft 2: Aeronautics update"
 
 #Dimension Information Overrides
 [dimension_overrides]

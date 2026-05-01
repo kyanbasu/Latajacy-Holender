@@ -5,6 +5,34 @@ file = "README.md"
 hash = "ddbbef60db670625464d6b18dc982807f8253be3a2f62143a7fc93c84970d883"
 
 [[files]]
+file = "config/openloader/options.json"
+hash = "aecd2d223c33257182654d3e8d5286c414508706fa0f0f33b868d4c1c9b7b786"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/aeronautics_tweaks/neoforge/biome_modifier/add_andesite_boulders.json"
+hash = "40eb00406fb81fb55de4fe2aeed61cebee6b7b08f2a2a009bee4e1bc9bda8ef1"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/aeronautics_tweaks/recipe/andesite_from_limestone.json"
+hash = "c274802b5687bc4451966b7d24d455c5b7c82761a21a2128572f39d2d7c37d0d"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/aeronautics_tweaks/worldgen/configured_feature/andesite_boulder.json"
+hash = "8389e83967a4551a440b49bb6ac59b12331bd0359ef42321fc8a7141f168396c"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/aeronautics_tweaks/worldgen/placed_feature/andesite_boulder.json"
+hash = "dcaeb477b675ee92207199ddc322d9f09fae5e9547f27fc7c93ad778845c64bc"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/minecraft/recipe/andesite.json"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
+
+[[files]]
+file = "config/openloader/packs/Aeronautics Tweaks Datapack/pack.mcmeta"
+hash = "de4f240587c736bb2a151f1fd6d14f81f68c262f88a53593b303327b8902feef"
+
+[[files]]
 file = "config/servercore/config.yml"
 hash = "9ca8d8912d962743d57d0815733e31fd0a1dac0a208d18e6e4ac6b42ce5a3814"
 

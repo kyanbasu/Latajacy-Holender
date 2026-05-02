@@ -46,7 +46,7 @@ hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "55ad0165c1d43be313d791485f00facdbad18949df69b4612fe79a267f9d9468"
+hash = "7c2ad7e5964e0d4545670d5d54d654ac3633068788adfb82fb3875c6b232dff9"
 
 [[files]]
 file = "config/sol_valheim_reforged-common.toml"
@@ -59,6 +59,10 @@ hash = "1db93ce89ec5378c51323885b66993294494ea50475f61dcfe6a0ca1ae2529b5"
 [[files]]
 file = "icon.png"
 hash = "36e50a7be2ce7d2805c02636f942aa0e9c0fb2e41add7f7661c4d59533fc6626"
+
+[[files]]
+file = "mods/VoxyServer-1.1.5.jar"
+hash = "b8504091e1673b1a019537d360a7ca9ebbaa74ef0b6637d7ab69c6f031b434ba"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -407,7 +411,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy-0.2.14-alpha.jar"
-hash = "a860a5f652f4dbb49955c04e62e1676aa0260be9798e1ead62dc9277be7dcecb"
+hash = "e4b8be5911884aadec36348f0c135e5a03868347be25dbd910b06d156de2d3b3"
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"

@@ -5,6 +5,14 @@ file = "README.md"
 hash = "ddbbef60db670625464d6b18dc982807f8253be3a2f62143a7fc93c84970d883"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "ba0ff2240d5d1d047f6b71c3bac2f33aeea033b20d09a66f05c8c09aeb21d7eb"
+
+[[files]]
+file = "config/curios-common.toml"
+hash = "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
+
+[[files]]
 file = "config/openloader/options.json"
 hash = "aecd2d223c33257182654d3e8d5286c414508706fa0f0f33b868d4c1c9b7b786"
 
@@ -57,16 +65,22 @@ file = "config/tectonic.json"
 hash = "907fc5c90825e092430f63b8e0cdbe7c847e43d66b4269c3943aeef19263a5b9"
 
 [[files]]
-file = "config/voxy-config.json"
-hash = "1db93ce89ec5378c51323885b66993294494ea50475f61dcfe6a0ca1ae2529b5"
-
-[[files]]
 file = "icon.png"
 hash = "36e50a7be2ce7d2805c02636f942aa0e9c0fb2e41add7f7661c4d59533fc6626"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
+metafile = true
+
+[[files]]
+file = "mods/better-combat.pw.toml"
+hash = "5486f656b149dd16ebd97ea62f3410372ad6883604f51e88d14f22c5263a8280"
 metafile = true
 
 [[files]]
@@ -90,6 +104,11 @@ hash = "4b060001a83142b94d6b60cf32bc015b0deb6090d5d962dac4650b3caed14f89"
 metafile = true
 
 [[files]]
+file = "mods/cataclysm-x-bettercombat-compat.pw.toml"
+hash = "013b9fabe0ddcb2bf828c242688210efe5462b15af9ab240979a4d0633537748"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
 metafile = true
@@ -110,8 +129,8 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
@@ -131,7 +150,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "90f936b5bc3aa77315b35f4475ca529f12487f732c15782c6971e3f91d9905c9"
+hash = "c27afa0779ec479fe6811153607bf23d9242c2c93e02a23a03b934db4bb3f8c3"
 metafile = true
 
 [[files]]
@@ -215,11 +234,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
-metafile = true
-
-[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
 metafile = true
@@ -270,8 +284,23 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm-delight.pw.toml"
+hash = "3e22ed38fd860e638308255d4a3f5eb24b3d22df1fabb9374ed6daa633abde79"
+metafile = true
+
+[[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "5197ac84b7bffaf24dffdb2974dc23fb94d31a10f26a1d165ab36816be835238"
+metafile = true
+
+[[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "9ca14134538c66b6d8ef74107f6b15ba9487ec632d984427e84ad38aa47afa60"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "5c936e47a14beddf1a8461fab6ea79edb6f0ba10d73c9b8f093c4b4892546433"
 metafile = true
 
 [[files]]
@@ -281,7 +310,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "89ffd1297ebc4b0ac4773a5b9483f765c5cfe3fa034767da61129820c47de965"
+hash = "43908d26ef77cc78e08ba2edae2ca63a56d7da415ff48c61e485c46edeacefeb"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "9bc2d48df2e387c4003a2c52333e392fbb332b2fcc27899fb43d55ff8328d76e"
 metafile = true
 
 [[files]]
@@ -291,7 +325,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "c05fa3fa9bc5700104d928b616b15e70d441085dd060c6501122747dc3805de1"
+hash = "79ec61f202f6f39c7731db30193eb3600ad87f45b9dc1266bdb14e4a315e3ab8"
 metafile = true
 
 [[files]]
@@ -322,6 +356,11 @@ metafile = true
 [[files]]
 file = "mods/open-loader.pw.toml"
 hash = "904c4adb3f8087a2c5381efd5d210183484934540372a5c839ab4790325e5cff"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
@@ -370,6 +409,11 @@ hash = "6f1d61fd153ef2a1f1bf21e7460a20c73805c0c6f597957bccc4494984a877be"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "c4f12c7bf746bdf25719995f9da8626187e9f879a20e29a9b4854e2066ad20bc"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
@@ -391,7 +435,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
+hash = "24b70724aa94bba51a410eb4812a2729638cc761a1954af0a394752c2cd75432"
 metafile = true
 
 [[files]]

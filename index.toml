@@ -22,7 +22,7 @@ hash = "8389e83967a4551a440b49bb6ac59b12331bd0359ef42321fc8a7141f168396c"
 
 [[files]]
 file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/aeronautics_tweaks/worldgen/placed_feature/andesite_boulder.json"
-hash = "dcaeb477b675ee92207199ddc322d9f09fae5e9547f27fc7c93ad778845c64bc"
+hash = "3387d181d06c7e554341043207bcfb8f63bebcd3f42ed3ad1a7c9880476088c9"
 
 [[files]]
 file = "config/openloader/packs/Aeronautics Tweaks Datapack/data/minecraft/recipe/andesite.json"
@@ -53,16 +53,16 @@ file = "config/sol_valheim_reforged-common.toml"
 hash = "9cf60abd268cac06262a35e570be7665028753c225e7b0753fa837655689b026"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "907fc5c90825e092430f63b8e0cdbe7c847e43d66b4269c3943aeef19263a5b9"
+
+[[files]]
 file = "config/voxy-config.json"
 hash = "1db93ce89ec5378c51323885b66993294494ea50475f61dcfe6a0ca1ae2529b5"
 
 [[files]]
 file = "icon.png"
 hash = "36e50a7be2ce7d2805c02636f942aa0e9c0fb2e41add7f7661c4d59533fc6626"
-
-[[files]]
-file = "mods/VoxyServer-1.1.5.jar"
-hash = "b8504091e1673b1a019537d360a7ca9ebbaa74ef0b6637d7ab69c6f031b434ba"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -115,11 +115,6 @@ hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
-file = "mods/continents.pw.toml"
-hash = "2093cb1975cff3c2e584282bc19340d1d7567dc61c86a0461adce0066d6e3a62"
-metafile = true
-
-[[files]]
 file = "mods/craterlib.pw.toml"
 hash = "611455ca9d3d1d7e56bdaf76c17306ab0344847869525ec1e1b9c13198dd4303"
 metafile = true
@@ -127,6 +122,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
@@ -147,6 +147,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "133e7c9295b9e7e8577b5ca36cf9548b4c590eeb0708fdeb9cb59c2758759ac8"
 metafile = true
 
 [[files]]
@@ -275,6 +280,11 @@ hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "89ffd1297ebc4b0ac4773a5b9483f765c5cfe3fa034767da61129820c47de965"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "6c600fe7b0789b7501968f57bb33b526e8c711dc6305f64b406abccfbdb971d5"
 metafile = true
@@ -385,6 +395,11 @@ hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
@@ -408,10 +423,6 @@ metafile = true
 file = "mods/treechop.pw.toml"
 hash = "da1c1cf28e8d5ffe377998d29d59eae29a2020f2de7a0aea7f7253acdc695cfd"
 metafile = true
-
-[[files]]
-file = "mods/voxy-0.2.14-alpha.jar"
-hash = "e4b8be5911884aadec36348f0c135e5a03868347be25dbd910b06d156de2d3b3"
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"

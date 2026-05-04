@@ -654,6 +654,16 @@ hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "ac00ddc5c3528db796cc939c91cc9d03d9f04e55474b68b0e4f094dc6d00fbc3"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "5eed555d96dcdf16f9aa088d4e2656f0254e422a2bdb0422b20fde7c05c34df5"
+metafile = true
+
+[[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "87708c5cf041f2c7eede5dc1a5ee0dd517a13c0c7e8c40c359669a5ffabef7db"
 metafile = true

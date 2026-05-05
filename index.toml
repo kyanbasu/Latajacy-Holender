@@ -329,11 +329,6 @@ hash = "77109801093172dad01b0d62423eee91b317d23e094097760b065e980e8b10c2"
 metafile = true
 
 [[files]]
-file = "mods/drippy-loading-screen.pw.toml"
-hash = "eea753771cfbd43beb266fefdb1953f718f6aee6c78f10384c8db7150bb37d84"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
@@ -406,11 +401,6 @@ metafile = true
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "37995c0f2abd249cc36579043316e0e9f45e38b9e6c3b0b8c1cdbaa25c5d6537"
-metafile = true
-
-[[files]]
-file = "mods/fancymenu.pw.toml"
-hash = "f61b542fc05e575f6fa973f447257593cb8a2e08bc032b3c22c036e170886b00"
 metafile = true
 
 [[files]]

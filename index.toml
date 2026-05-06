@@ -199,6 +199,11 @@ hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
@@ -344,11 +349,6 @@ hash = "7e01c6f0728da08b83df626b866ca83e770b80d3213e9107561d4b816069ed37"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
-metafile = true
-
-[[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "77109801093172dad01b0d62423eee91b317d23e094097760b065e980e8b10c2"
 metafile = true
@@ -451,6 +451,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
 
 [[files]]
@@ -765,7 +770,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+hash = "9bda5c5784ac697fc6fe0c1c6e8fec99dac8e2140c500150f055b75bc4a22a3a"
 metafile = true
 
 [[files]]
@@ -831,6 +836,16 @@ metafile = true
 [[files]]
 file = "mods/tumbleweeds.pw.toml"
 hash = "0594f15a418aed0e71abbf0fcf09d8fe5154a047f99fadf9357ebb61331413e6"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "69ccfb1971a9b7d415b22979446e28f7939b258fe603f9f950eed0aa99bbf751"
+metafile = true
+
+[[files]]
+file = "mods/voxyserver.pw.toml"
+hash = "123537567a27d379fe2d08738b248980cadc85bf0293841f80843c4449ec2d0e"
 metafile = true
 
 [[files]]

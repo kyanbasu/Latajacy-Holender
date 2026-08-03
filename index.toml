@@ -124,6 +124,11 @@ hash = "5486f656b149dd16ebd97ea62f3410372ad6883604f51e88d14f22c5263a8280"
 metafile = true
 
 [[files]]
+file = "mods/better-ping-display.pw.toml"
+hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
+metafile = true
+
+[[files]]
 file = "mods/biolith.pw.toml"
 hash = "b6334969f26d7d6ad0c9dd5e2336a71952c286bee1e38ac0aa22a757ad8e3d0d"
 metafile = true
@@ -179,6 +184,11 @@ hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
 metafile = true
 
 [[files]]
+file = "mods/chatanimation.pw.toml"
+hash = "b5b46e4d9cc18c1e2c19c59a7ed58918e49fb5a6692c538e638fb52b82b023a5"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
@@ -201,6 +211,11 @@ metafile = true
 [[files]]
 file = "mods/connector.pw.toml"
 hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
@@ -346,6 +361,16 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "7e01c6f0728da08b83df626b866ca83e770b80d3213e9107561d4b816069ed37"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "ef7868aa3a029cdb7a9a46fc3f55ae12c4bc86cb5d92ae889ed554acfa229c45"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "d5b9c23df79ef871a70032567db2512904251347bdf13da80fbb8b00a846a79a"
 metafile = true
 
 [[files]]
@@ -729,8 +754,18 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
+file = "mods/seeu.pw.toml"
+hash = "791b1fc7ad7f7dd5dca48c7d4b79a1d7f9ae4f236ce5333b776c18c67afc8f0a"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "00f400af981bbe8be3767ef49f4bc422a9649c3fa2d403bae7b25202a05fda1a"
+metafile = true
+
+[[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "1adb38171f100615423b3117dee282584aaf0ef29e3597cf87dda99c7c8cef66"
 metafile = true
 
 [[files]]
@@ -836,16 +871,6 @@ metafile = true
 [[files]]
 file = "mods/tumbleweeds.pw.toml"
 hash = "0594f15a418aed0e71abbf0fcf09d8fe5154a047f99fadf9357ebb61331413e6"
-metafile = true
-
-[[files]]
-file = "mods/voxy.pw.toml"
-hash = "69ccfb1971a9b7d415b22979446e28f7939b258fe603f9f950eed0aa99bbf751"
-metafile = true
-
-[[files]]
-file = "mods/voxyserver.pw.toml"
-hash = "123537567a27d379fe2d08738b248980cadc85bf0293841f80843c4449ec2d0e"
 metafile = true
 
 [[files]]

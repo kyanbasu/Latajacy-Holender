@@ -1,0 +1,13 @@
+name = "SeeU"
+filename = "seeu-neoforge-1.21.1-0.7.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/coyNPDey/versions/lDBi5aFr/seeu-neoforge-1.21.1-0.7.2.jar"
+hash-format = "sha512"
+hash = "d13fdf60ace2b3f6f17c576160bd3284e07ab78b75aef28f7c2c16d5d60cc91d91e7d54417ea0da65ebadaf7731305a44661acaa39add6ca366879b212c6c2c0"
+
+[update]
+[update.modrinth]
+mod-id = "coyNPDey"
+version = "lDBi5aFr"

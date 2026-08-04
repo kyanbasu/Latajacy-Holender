@@ -1,13 +1,13 @@
 name = "Reliquified Artifacts"
-filename = "reliquified_artifacts-1.21.1-1.0.5.jar"
+filename = "reliquified_artifacts-1.21.1-1.0.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GnU07giL/versions/YYuDn55K/reliquified_artifacts-1.21.1-1.0.5.jar"
+url = "https://cdn.modrinth.com/data/GnU07giL/versions/8e2B3E8s/reliquified_artifacts-1.21.1-1.0.7.jar"
 hash-format = "sha512"
-hash = "1106d647273d5cde6ecb9973d888a1c34518e25d299f563badce747ff11a4c080e981ccffffddc487c1a5fa6794e8617ca32c7adaf62a97e37f8003f857cdf18"
+hash = "25a98f38eee734cfa32c9b5d29ebd677266f6381fdc37130364a4a5fe78faddf9324bde848be0f3085c0668dff1e92b63b73e308a4946b864643bdd68b5485d4"
 
 [update]
 [update.modrinth]
 mod-id = "GnU07giL"
-version = "YYuDn55K"
+version = "8e2B3E8s"

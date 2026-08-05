@@ -6,7 +6,7 @@ hash = "ddbbef60db670625464d6b18dc982807f8253be3a2f62143a7fc93c84970d883"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ba0ff2240d5d1d047f6b71c3bac2f33aeea033b20d09a66f05c8c09aeb21d7eb"
+hash = "22a63cefc361bda0d91e8d065077693390223b07d9b8ac9e0c0f24ac188d1132"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -51,6 +51,10 @@ hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 [[files]]
 file = "config/openloader/packs/Aeronautics Tweaks Datapack/pack.mcmeta"
 hash = "de4f240587c736bb2a151f1fd6d14f81f68c262f88a53593b303327b8902feef"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "de5b39229c050f77d76057971dd5031321deda74ca8ade74d9c0eaef79d6dd18"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -201,11 +205,6 @@ hash = "e7b1b17efc6edcf454e6b48d8fb873031fdcc840e9bd9b7354af2cb08d67e6b4"
 metafile = true
 
 [[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
-metafile = true
-
-[[files]]
 file = "mods/clientsort.pw.toml"
 hash = "1575c645b68ae61e6848cc26ededa351235dd4bb5e58aef19b78c02c79afd447"
 metafile = true
@@ -213,6 +212,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "3f99808dda6b83374cea1d478e2688c69af71a7381b176d0a7df50d219e44ca9"
 metafile = true
 
 [[files]]
@@ -248,6 +252,11 @@ metafile = true
 [[files]]
 file = "mods/craterlib.pw.toml"
 hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-(sable)-mass-view.pw.toml"
+hash = "1e49251a57f6363ec88f7e04df5b001b658c9435f5bf5b2ed3b3bbb4693bb3ab"
 metafile = true
 
 [[files]]
@@ -346,6 +355,11 @@ hash = "572ec7a57be68aa913863f4fa3be7208ae3dbb846043f3c5890a290976b41f90"
 metafile = true
 
 [[files]]
+file = "mods/create-sable-dynamic-lights.pw.toml"
+hash = "8bd25da66655f493b41b090867efb1b33241b8b9f623190c8991fe17709478e1"
+metafile = true
+
+[[files]]
 file = "mods/create-tweaked-controllers.pw.toml"
 hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
 metafile = true
@@ -358,6 +372,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
 metafile = true
 
 [[files]]
@@ -488,6 +507,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/flerovium.pw.toml"
+hash = "9ab20de2d63037f055d6b614013389e0198068bab536dfd62eebd913e5222fe1"
 metafile = true
 
 [[files]]
@@ -706,6 +730,11 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
+file = "mods/pf-neoforge.pw.toml"
+hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
@@ -713,6 +742,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps-x-sable.pw.toml"
+hash = "b935ef30071e33025010c390655d53c53fc7bf82fecc8ac2b3cad0b98accee0d"
 metafile = true
 
 [[files]]
@@ -816,6 +850,11 @@ hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "9cff55b64b62831e1be78c469b6758829f9d15016c6b12ea2d5103c3263f510e"
 metafile = true
@@ -843,6 +882,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-valheim-reforged.pw.toml"
 hash = "c16e1be49014758e7f357283f803233903375ab94e36dd2f0d647901327524ec"
+metafile = true
+
+[[files]]
+file = "mods/ssrd.pw.toml"
+hash = "67eabcc7dbc9c93130dc3f6d689808ee97d4a92fb4ee27c7675c12cc87a2131e"
 metafile = true
 
 [[files]]
@@ -883,6 +927,21 @@ metafile = true
 [[files]]
 file = "mods/tumbleweeds.pw.toml"
 hash = "0594f15a418aed0e71abbf0fcf09d8fe5154a047f99fadf9357ebb61331413e6"
+metafile = true
+
+[[files]]
+file = "mods/voice-chat-global-spectator-chat.pw.toml"
+hash = "2fd991d66291d7f368465e8413382e080594bdd820c081c43f11b8237fdd1820"
+metafile = true
+
+[[files]]
+file = "mods/voicechat-names.pw.toml"
+hash = "63df063209a5412fd636b08a992367f5bfe81d2ac4e4f45d101edd0c3f6ad394"
+metafile = true
+
+[[files]]
+file = "mods/vs-hose-connectors.pw.toml"
+hash = "6c9883d2fa1643fe221307ab0101fbccb204c80953989d3e064872b4f45efd34"
 metafile = true
 
 [[files]]

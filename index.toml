@@ -90,6 +90,11 @@ hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-propeller-blur.pw.toml"
+hash = "7fd99e9561534a62906b7692b6de79d947c36687490d7a8aee5c51d06f85ee12"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "778fa4eda9d46a79ba4ae4a8425d5202bc584fbf5a64467588567bef5e458726"
 metafile = true
@@ -255,8 +260,33 @@ hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
 metafile = true
 
 [[files]]
+file = "mods/creat-aeronautics-structures.pw.toml"
+hash = "692aa6f5a5254b7eee23afec6275f9ee6dd9b46ac2c25cf1929a55e2310f1d36"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-(sable)-mass-view.pw.toml"
 hash = "1e49251a57f6363ec88f7e04df5b001b658c9435f5bf5b2ed3b3bbb4693bb3ab"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-boat-propellers.pw.toml"
+hash = "32aadd0f7806ba4adf8f88f5494cf2b564b603fee8ca50a1d9dfbc5e48c9c97a"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-compatability.pw.toml"
+hash = "d66f3ca71587c7ab8076f4a0154b0d3aa2f043c29c6373f2b8b2e5d6c3c3e91f"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-encased-fluid-pipes.pw.toml"
+hash = "c43a63422172da82f7bf9331f54b298058df9fbef57cb32473de691ce91f580d"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-gyroscope-stabilizers.pw.toml"
+hash = "845db39ab8c05bcd2f047d7bd810ea0d27f027ebbaf7f8db872126e8bc89ee2d"
 metafile = true
 
 [[files]]
@@ -272,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "0e590f9694cb6d9d1353dea5602cb911a6628cfb0aa36b408bc2c30fc3e88c96"
 metafile = true
 
 [[files]]
@@ -320,6 +355,11 @@ hash = "db683b65dc15a03dd6de2d34d5dc6ad0e3490744ced513a8cc584784ee9d3d8b"
 metafile = true
 
 [[files]]
+file = "mods/create-hangars.pw.toml"
+hash = "49d6ae56b14e2c737c69fdbd2943fa6047fbc63ff5089ff72504f71576a00f81"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "157b009cd9b2a7f55f2b7d0abdc2f9f7d49eade208a786c71cc6d2f8430bba4a"
 metafile = true
@@ -327,6 +367,11 @@ metafile = true
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "125550f754e447392aab3688e11652157296f53eac160bb62d1fbdca6c5af359"
+metafile = true
+
+[[files]]
+file = "mods/create-lift-n-load.pw.toml"
+hash = "77fe9aeb9f970359adfbe2b929ffc65b595dd5dbe48bc164c04601bbd19322fa"
 metafile = true
 
 [[files]]
@@ -532,6 +577,16 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+metafile = true
+
+[[files]]
+file = "mods/geckolibbetterfps.pw.toml"
+hash = "aff6f31f93183558df77115c584799f60babbd5e28c03d8d1b28dbf03fdd6d95"
 metafile = true
 
 [[files]]
@@ -787,6 +842,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "87708c5cf041f2c7eede5dc1a5ee0dd517a13c0c7e8c40c359669a5ffabef7db"
+metafile = true
+
+[[files]]
+file = "mods/sable-far-and-wide.pw.toml"
+hash = "d5f8a91c0f5f56dac67f72edb5cdf508d6b004c12c6b302032ab676c703926de"
 metafile = true
 
 [[files]]

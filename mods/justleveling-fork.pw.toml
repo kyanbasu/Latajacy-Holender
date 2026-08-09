@@ -1,0 +1,13 @@
+name = "JustLeveling Fork"
+filename = "justlevelingfork-neoforge-1.2.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LqrwcaUD/versions/75eTMhRH/justlevelingfork-neoforge-1.2.9.jar"
+hash-format = "sha512"
+hash = "d72a8718b05f74c4ab1acc5dc1d43c2b701c29e0798ac3a55eae43c55e4b414ac7b281c7ddff02af24ba844d01bfd8380e7a9849b3795f7a401ad4c7a164a34c"
+
+[update]
+[update.modrinth]
+mod-id = "LqrwcaUD"
+version = "75eTMhRH"

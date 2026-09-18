@@ -1,0 +1,13 @@
+name = "Glaiden's Audio"
+filename = "glaidens_radio_mod-1.3.8-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQHhusVl/versions/iWY4lnBb/glaidens_radio_mod-1.3.8-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9c8b41f7945c9a72cc9398d718e246a468ae9b93507b3c73916d9650c61143d3632673ac416f3f671127638837d57c283b26af014b2b9fd00d316bb0442f5759"
+
+[update]
+[update.modrinth]
+mod-id = "JQHhusVl"
+version = "iWY4lnBb"

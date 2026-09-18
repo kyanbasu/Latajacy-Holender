@@ -1,0 +1,13 @@
+name = "Create: Building Dimension"
+filename = "sablecreativedim-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mCiIdmyB/versions/GynDDnUH/sablecreativedim-1.1.0.jar"
+hash-format = "sha512"
+hash = "77f8e707b4a33c9bdf4e36cbd789185d1447ee972ce888c71b632b734150316fb9cfbc34f9992ac3c4093ca108b279b08c1a718225a40e91afb5020d3d7554f6"
+
+[update]
+[update.modrinth]
+mod-id = "mCiIdmyB"
+version = "GynDDnUH"

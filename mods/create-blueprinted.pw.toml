@@ -1,13 +1,13 @@
 name = "Create: Blueprinted"
-filename = "create_blueprinted-2.2.2.jar"
+filename = "create_blueprinted-2.2.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nJM6buSc/versions/B8tUKMOR/create_blueprinted-2.2.2.jar"
+url = "https://cdn.modrinth.com/data/nJM6buSc/versions/BUtMYN0D/create_blueprinted-2.2.4.jar"
 hash-format = "sha512"
-hash = "c09aac6a2f2d1bc41801571feb014c7af0f970abcd5d6403a80bb67bbd0e504393b9326be3545fe4c4f813d7d63be8409775ceb983a3036c89d2f531f585c943"
+hash = "f1c5924f6ebbc502f52825385dfb1fb0cb1c7917c97ff390783618e12984c6aa6e2a817a4f8da667a4dfe7b43d874fc79f098c2758743994bf50451d3b2f29a9"
 
 [update]
 [update.modrinth]
 mod-id = "nJM6buSc"
-version = "B8tUKMOR"
+version = "BUtMYN0D"

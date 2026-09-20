@@ -1,6 +1,6 @@
 name = "Voice Chat - Global Spectator Chat"
 filename = "global-spectator-vc-neoforge-1.21.1-1.0.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/qULIS7Hc/versions/nUYK36Zl/global-spectator-vc-neoforge-1.21.1-1.0.1.jar"

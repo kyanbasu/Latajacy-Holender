@@ -1,13 +1,13 @@
 name = "Hephaestus Forge"
-filename = "hephaestus-neoforge-1.21.1-1.0.9.jar"
+filename = "hephaestus-neoforge-1.21.1-1.0.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6a2d89d1e057cd7e8816da2c2d2a39814a880383"
+hash = "128d24a306b5cc282e75a2bf1a4b09a93c18c735"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8440431
+file-id = 8742494
 project-id = 1542467

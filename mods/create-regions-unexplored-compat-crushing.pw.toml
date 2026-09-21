@@ -1,0 +1,13 @@
+name = "Create Regions Unexplored Compat: Crushing"
+filename = "create_ru_compat-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/bdR5T71y/versions/2JgMnuog/create_ru_compat-1.0.0.jar"
+hash-format = "sha512"
+hash = "39e1696dd0f665a278b0c51e81f6b8a8ff7881ebc75a2f17137dcba51e35b38c6aef3ae1d54856142a334299e82f2d3a508599808789f8c295e15ea98473d862"
+
+[update]
+[update.modrinth]
+mod-id = "bdR5T71y"
+version = "2JgMnuog"

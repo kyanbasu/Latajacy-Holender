@@ -413,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "ec00a16a28c8b8671948f2d12df41ed4faeaad6c4beb3810b2a0e917945b3d45"
+hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
 metafile = true
 
 [[files]]
@@ -583,7 +583,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "36ba6ade58f4c13c623743ee4b18e92a56355d3014e6c05fb6d7183d13fb9d83"
+hash = "7958205a9ca2cb5b78c5347c94ef4934291b9fdb369aa31561af6ee2fb4bd0bb"
 metafile = true
 
 [[files]]
@@ -627,8 +627,13 @@ hash = "c4fb5bf78ad912a20ff50767f4e5cb64fd84f04d58db0c79bc728b643acc4038"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons-seedgen.pw.toml"
+hash = "cf226f9e5133846135345ee6407fe57acfd322b3c209f3eef0f2aff67cdcf9c5"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d5b9c23df79ef871a70032567db2512904251347bdf13da80fbb8b00a846a79a"
+hash = "6d3e312dbf8db12dd1b6fb3bd1d29f210ab48024a0b2ebdf02fd32c265955c5d"
 metafile = true
 
 [[files]]
@@ -718,7 +723,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "9448043e083a2e45e77de4d88c628155ae174b37ea2ebfc3efe237fcdc956302"
+hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
 metafile = true
 
 [[files]]
@@ -783,7 +788,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "9443e2e10833fef220311447b5e21d161f2e4d76bb07c77d28e2dc2fa8e42cd6"
+hash = "7411c38665af0ee0b17613ac80daaa040a5f59b046d418421297acf2c6fa8c9c"
 metafile = true
 
 [[files]]
@@ -818,7 +823,7 @@ metafile = true
 
 [[files]]
 file = "mods/hephaestus-forge.pw.toml"
-hash = "6ec8e195aab4e92337c75e9ed77e40babcfd1ed66ea6a36ffb858ad3dca89c32"
+hash = "58fa7d9b226b6d3a60701f60a1d2c7c20ddfbd7a210c1b1d6a1794a15897e67c"
 metafile = true
 
 [[files]]
@@ -888,7 +893,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "2a740b39e014011fa33d9e169a4ded38d68dd8da6f244a17a4df4fd38c865613"
+hash = "4727f9eca761440a318177abe0916e5d1cbff3bdaa0ad5904be3a2b00bc44049"
 metafile = true
 
 [[files]]
@@ -928,7 +933,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "f2d7ff6d5461aa811f68ebc450009a4e3a3d53a06f7cbd52f09d75a7a08b916e"
+hash = "a57064a0b2f76d1940893fe8e4d6b6a57554fd27d32da88dcf152acfef223383"
 metafile = true
 
 [[files]]
@@ -953,7 +958,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "e95a7c54f936eda33a548766784f806aef2195204864a79e8535ce132c94e0f1"
+hash = "0294264654da6777cfbbbd24ffa6dd1d082768fa7ae28b36b76f78261f53fce9"
 metafile = true
 
 [[files]]
@@ -964,6 +969,11 @@ metafile = true
 [[files]]
 file = "mods/map-atlases-forge.pw.toml"
 hash = "914b1149de9f334985644ceae82107dc2eeb55d85bf6dda1f64d357feb33c83a"
+metafile = true
+
+[[files]]
+file = "mods/mc2-interactive-foliage.pw.toml"
+hash = "2a073e082c5c6ce16f3523c3e89df7787f37f50b88e683c785b94b1234295d9a"
 metafile = true
 
 [[files]]
@@ -988,7 +998,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "a5794d747743ac8800355f1ac570b40baaf0bb195ff57beb0c2d0176a0530b94"
+hash = "7bc20264f0874457c08927af84def007cd5ed2caeee9d736cab1f92d8ea8d6ec"
 metafile = true
 
 [[files]]
@@ -1278,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/ssrd.pw.toml"
-hash = "aa584566e7edf979e1cc8ea3c5d812224c8223add42fa06f8c3d81a84b88ed57"
+hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
 metafile = true
 
 [[files]]
@@ -1293,7 +1303,7 @@ metafile = true
 
 [[files]]
 file = "mods/sway.pw.toml"
-hash = "bba91c7fa565fb4bce30ba731bdc44e2fa525584a7950a58050858eb220e7b67"
+hash = "d64f01d1be1eae8017715be1ba7d766975df58c87da9eb8814329292aba01c8f"
 metafile = true
 
 [[files]]
@@ -1436,7 +1446,7 @@ hash = "87fb2066e975fb6cbfc4ec74144f6ab2281ab1e2963d542c34d17d6ee5705ccd"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "4f5a297e2a8bb7245f1bd4e15e584e8f28f3ac7b60760a594e8bb6a20e631b68"
+hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
 metafile = true
 
 [[files]]

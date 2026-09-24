@@ -41,6 +41,22 @@ file = "config/curios-common.toml"
 hash = "cf6d0fb217bdc5f95ff1057fce0938689bbbc5f8305d3e90606712d28750f302"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "9e7445ff5679e6afe19c3839796806ef9b7884089c1ce47afd362ce8b3cd29c5"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "7f0f689091cc9d66eed1366b23ddb5c208bb58c0a23f81ca827c0bdd8e9b408f"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "87fb2066e975fb6cbfc4ec74144f6ab2281ab1e2963d542c34d17d6ee5705ccd"
+
+[[files]]
+file = "config/dimensional_tears-common.toml"
+hash = "dbcafb97dab7ffd6ff80e256484b876a7dfd88cde639fd92003b21b63af88373"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "fb5b6a2d4c51f273bbd8e2878f3d15439ea7268a43ec1ed5391b58e15096ea5e"
 
@@ -627,6 +643,11 @@ hash = "c4fb5bf78ad912a20ff50767f4e5cb64fd84f04d58db0c79bc728b643acc4038"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-tears.pw.toml"
+hash = "1a8ad607578c4a2aeb870dec14499267ebcedf7a8f196a4a4b4012134d58c7cc"
+metafile = true
+
+[[files]]
 file = "mods/distant-horizons-seedgen.pw.toml"
 hash = "cf226f9e5133846135345ee6407fe57acfd322b3c209f3eef0f2aff67cdcf9c5"
 metafile = true
@@ -699,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
+metafile = true
+
+[[files]]
+file = "mods/endrem.pw.toml"
+hash = "43e084efa5f7f4d41eb1c27c998029cf79d403549c8721e7621f650558f94c6e"
 metafile = true
 
 [[files]]
@@ -1417,10 +1443,6 @@ hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "1c73e7d8023996ff1ce952c3b02dd6e0a973a0ec4457f0824955eb1249399dcd"
-
-[[files]]
 file = "resourcepacks/dramatic-skys.pw.toml"
 hash = "8f967b7e600898db0ee79dedf76eb5969df6c7ccec87f0b708445eed99ea8268"
 metafile = true
@@ -1439,10 +1461,6 @@ metafile = true
 file = "resourcepacks/tras-fresh-player.pw.toml"
 hash = "32fe0fe8941110f8fba07ce7768faa1797de6b28e961ab65b483c380fc0a365a"
 metafile = true
-
-[[files]]
-file = "servers.dat"
-hash = "87fb2066e975fb6cbfc4ec74144f6ab2281ab1e2963d542c34d17d6ee5705ccd"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"

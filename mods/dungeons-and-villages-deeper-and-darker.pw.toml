@@ -1,13 +1,13 @@
 name = "Dungeons And Villages: Deeper and Darker"
-filename = "Dungeons And Villages DeeperAndDarker 1.21.1.jar"
+filename = "DaV DeeperAndDarker 1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dDLO8v94/versions/Ile0LlDg/Dungeons%20And%20Villages%20DeeperAndDarker%201.21.1.jar"
+url = "https://cdn.modrinth.com/data/dDLO8v94/versions/ooNbid7j/DaV%20DeeperAndDarker%201.21.1.jar"
 hash-format = "sha512"
-hash = "a3013c0f19f12606dc674d24615d4b374a9fe7e9c4d0b83c876e14d4d167aeb14cf70425f0cd03c8f88dce2e2ccf2e223b5d3aa92619897dde46e343e9907703"
+hash = "626cda02486c3d1f279f3c68a0bb7682cf77133714ab268852e2622e38c778d899c28fc4b8774429b7bd0555700077cc2b01ae9eecddc3e6cfe29694eef837e7"
 
 [update]
 [update.modrinth]
 mod-id = "dDLO8v94"
-version = "Ile0LlDg"
+version = "ooNbid7j"

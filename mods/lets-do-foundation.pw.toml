@@ -1,0 +1,13 @@
+name = "[Let's Do] Foundation"
+filename = "letsdo-foundation-neoforge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48ee531fe6830bfb715d3de3ae64686e570cf034"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9735873
+project-id = 1733606

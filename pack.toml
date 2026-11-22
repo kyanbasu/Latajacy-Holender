@@ -1,13 +1,13 @@
 name = "Latajacy Holender"
 author = "kyanbasu"
-version = "0.1"
+version = "0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bf4df24f8065aea6e7b25951cd95dfb1f02958f267ea68681c60e718f7a7822d"
+hash = "325cdab578f081565a533fdba8c86412d2e5a221e4ceb38d769d1dc0189546ce"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.251"
+neoforge = "21.1.267"

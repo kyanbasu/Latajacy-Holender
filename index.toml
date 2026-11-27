@@ -1174,6 +1174,11 @@ hash = "904c4adb3f8087a2c5381efd5d210183484934540372a5c839ab4790325e5cff"
 metafile = true
 
 [[files]]
+file = "mods/ore_plus_x4.pw.toml"
+hash = "8db0983f801a5c0a6428e28018690e20bbed5d32c499e6a01f506339b50a0068"
+metafile = true
+
+[[files]]
 file = "mods/overflowing-bars.pw.toml"
 hash = "cb40fc0e1e0a3338d57b34a5ba2612ae9a9f0e32619695c4da637a98b4e52cf3"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Ore Plus x4"
+filename = "ore_plus_x4-2.48.81.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fgS196wF/versions/BtvwBmih/ore_plus_x4-2.48.81.3.jar"
+hash-format = "sha512"
+hash = "2566aa9f3404b1be98a9c378cdf7e8e3ba7564acb19431403bce7c14953574d62c7ae3ae93a13f3e1dc71979d07a1f464556430f3c0b93a581acac2ed974cff0"
+
+[update]
+[update.modrinth]
+mod-id = "fgS196wF"
+version = "BtvwBmih"

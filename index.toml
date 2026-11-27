@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "44c2573177de2c01b3cdc205322778ac1458cd0523782eec09cd148cdd27abc4"
+hash = "86848c15572191d9ae287e654e8df46db2b27b519ab154467f4d5c0982576859"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f9139d36dc0bd8b1b627ef651a3c5f48e8177a4bc4cd19e568e29fd944227108"
+hash = "ff385e3d1f68386ccb4359006e68ad75d5d8ab3363b982f8a10bec98db097b9c"
 
 [[files]]
 file = "config/betterclouds-v1.json"
@@ -62,7 +62,7 @@ hash = "dbcafb97dab7ffd6ff80e256484b876a7dfd88cde639fd92003b21b63af88373"
 
 [[files]]
 file = "config/entityculling.json"
-hash = "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
+hash = "89100e87739dcb4bd8aaf1e98625704a5584eb98d13abdbe04dc68d2a8e84e87"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -170,11 +170,7 @@ hash = "0890e10174687c70bdc5857a4d7e6e925958d77ba42941718f4c12fb16592749"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "4b1730e196da9c1fb8a955d2a5dd9105c2fc247413b662aa50ecf6fd914557e9"
-
-[[files]]
-file = "config/sodiumdynamiclights-client.toml"
-hash = "5b36aeb152da44539b205ccf3e87f0edf46079f7be97aa677bf53c2f370d62d9"
+hash = "78b54e3b85358664a020526435061a6c1a6280d8b6935a8dd3df32767e879429"
 
 [[files]]
 file = "config/sol_valheim_reforged-common.toml"
@@ -643,11 +639,6 @@ hash = "ddef0dcf8688392f2466df8c2def631e31728ad178009431264958195c91aa14"
 metafile = true
 
 [[files]]
-file = "mods/create-sable-dynamic-lights.pw.toml"
-hash = "8bd25da66655f493b41b090867efb1b33241b8b9f623190c8991fe17709478e1"
-metafile = true
-
-[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
@@ -1103,11 +1094,6 @@ hash = "b54addad8fd6bdd9ee141d740de8c346b1744258cb8c8ab663a61054e48e308e"
 metafile = true
 
 [[files]]
-file = "mods/mc2-interactive-foliage.pw.toml"
-hash = "84187d5a17d81081749fa21f7e5aa8af1a1bd82a78aff5c7d25cdac62d707978"
-metafile = true
-
-[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
 metafile = true
@@ -1385,11 +1371,6 @@ metafile = true
 [[files]]
 file = "mods/snassets-library-general.pw.toml"
 hash = "31c2b517d5d0ed243395656973d45682244126f33d6c5843956d1cd267bbdb5f"
-metafile = true
-
-[[files]]
-file = "mods/sodium-dynamic-lights.pw.toml"
-hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]

@@ -10,7 +10,8 @@ Distant Horizons covers everything beyond that:
 - Distant Horizons: 2 generation threads at 60% runtime, priority 3 (was 6 threads at 100%).
   LODs generate a bit slower; final detail is unchanged. Noisy per-event logging is muted.
 - C2ME: pinned to 2 worker threads, low priority.
-- Sodium: 2 chunk-builder threads instead of "auto" (which used ~all cores here), and
+- Sodium: 4 chunk-builder threads on a 6-core client (scaled by `config_scale.py`) —
+  `ChunkBuilderMeshingTask.execute` was the dominant chunk-crossing stall — and
   `cpu_render_ahead_limit=2` to shorten CPU work per frame.
 - World Preview: 2 threads instead of 11.
 - Sable: 50 sub-level split steps/tick instead of 200 (smoother frames with many airships).
@@ -19,6 +20,13 @@ Distant Horizons covers everything beyond that:
   hotspot (`SubLevelPhysicsSystem.tick`), at the cost of slightly less accurate airship physics.
 - ServerCore activation range: enabled with conservative 64-96 block radii and Create
   contraptions/minecarts exempt. Distant entities skip ticks; nearby gameplay is unchanged.
+- Distant Horizons network load: real-time LOD radius 256→128, sync-on-load off,
+  request rate 20→10, bandwidth 500→300 KB/s, adaptive transfer on. Final LOD detail
+  (BLOCK / 256-chunk radius) is unchanged; only live LOD updates arrive more gently.
+- Removed unused visual mods from the pack: Create Sable Dynamic Lights, Sodium
+  Dynamic Lights and Interactive Foliage (you had already disabled them).
+- EntityCulling occlusion work trimmed: tracing distance 128→64, capture rate 5→10,
+  sleep delay 10→20. Safe mode and tick culling stay on.
 - Default FPS cap: 90; on a CPU bottleneck an uncapped cap only adds frame-time variance.
 
 Launcher-side (not part of the packwiz pack) recommended JVM flags for this machine:

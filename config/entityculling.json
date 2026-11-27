@@ -16,11 +16,11 @@
     "drg_flares:drg_flares",
     "quark:soul_bead"
   ],
-  "tracingDistance": 128,
+  "tracingDistance": 64,
   "debugMode": false,
-  "sleepDelay": 10,
+  "sleepDelay": 20,
   "hitboxLimit": 50,
-  "captureRate": 5,
+  "captureRate": 10,
   "tickCulling": true,
   "tickCullingWhitelist": [
     "cinematiccataclysm:scylla_cutscene",

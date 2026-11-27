@@ -109,7 +109,8 @@ def apply(role: str, cores: int, dry_run: bool) -> None:
         dh_threads = max(1, min(3, cores // 3))
         dh_ratio = "0.6"
         dh_priority = 3
-        sodium_threads = max(1, min(3, cores // 3))
+        # Chunk meshing is the dominant chunk-crossing stall (ChunkBuilderMeshingTask).
+        sodium_threads = max(2, min(4, cores - 2))
         preview_threads = max(1, cores // 3)
         sable_substeps = 1
         target_mspt = 17

@@ -945,7 +945,7 @@ _version = 5
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 10
 	#
 	# Defines the distance allowed to generate around the player.
 	maxGenerationRequestDistance = 4096
@@ -954,22 +954,22 @@ _version = 5
 	enableRealTimeUpdates = true
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 128
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
-	synchronizeOnLoad = true
+	synchronizeOnLoad = false
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 10
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 2048
 	#
 	# Maximum per-player speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
-	playerBandwidthLimit = 500
+	playerBandwidthLimit = 300
 	#
 	# Maximum global speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
@@ -978,4 +978,4 @@ _version = 5
 	# Enables adaptive transfer speed based on client performance.
 	# If true, DH will automatically adjust transfer rate to minimize connection lag.
 	# If false, transfer speed will remain fixed.
-	enableAdaptiveTransferSpeed = false
+	enableAdaptiveTransferSpeed = true

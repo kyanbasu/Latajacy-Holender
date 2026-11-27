@@ -364,6 +364,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "3e331904b85935623be0af57b1bd308778a6568e7a0556ef6f8c644b4380d864"
+metafile = true
+
+[[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "c7f9286eabbfd298a73a92dc91031a27a8551a7cda8656f2173a4ba8cc0ac1a2"
 metafile = true
@@ -1486,6 +1491,11 @@ metafile = true
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
 hash = "374f727e655fba152a24f3904559b5bb5d4b24221e6556e54092fb64aaf1a8dc"
+metafile = true
+
+[[files]]
+file = "mods/village-spawn-point.pw.toml"
+hash = "cb11380be67715dfbf6b9fd28dfefb151c7a43265ba7506d6c3fd0d1b4f3c972"
 metafile = true
 
 [[files]]

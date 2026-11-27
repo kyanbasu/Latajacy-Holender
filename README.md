@@ -3,20 +3,48 @@
 ## Performance notes (6-core / 12-thread laptop)
 
 The shipped configs are tuned to keep **all visual fidelity** (256-chunk Distant Horizons radius,
-BLOCK-resolution LODs, Medium LOD quality, trees/structures in LODs, SSAO, anti-aliasing, clouds,
-shaders and vanilla render distance 12) while reducing CPU oversubscription:
+BLOCK-resolution LODs, Medium LOD quality, trees/structures in LODs, SSAO, anti-aliasing, clouds
+and shaders) while reducing CPU oversubscription. Vanilla render distance is deliberately 8 -
+Distant Horizons covers everything beyond that:
 
-- Distant Horizons: 3 generation threads at 70% runtime, priority 3 (was 6 threads at 100%).
+- Distant Horizons: 2 generation threads at 60% runtime, priority 3 (was 6 threads at 100%).
   LODs generate a bit slower; final detail is unchanged. Noisy per-event logging is muted.
-- C2ME: pinned to 3 worker threads, low priority.
-- Sodium: 3 chunk-builder threads instead of "auto" (which used ~all cores here).
-- World Preview: 4 threads instead of 11.
-- Sable: 100 sub-level split steps/tick instead of 200 (smoother frames with many airships).
+- C2ME: pinned to 2 worker threads, low priority.
+- Sodium: 2 chunk-builder threads instead of "auto" (which used ~all cores here), and
+  `cpu_render_ahead_limit=2` to shorten CPU work per frame.
+- World Preview: 2 threads instead of 11.
+- Sable: 50 sub-level split steps/tick instead of 200 (smoother frames with many airships).
 - ModernFix: lazy model loading (`mixin.perf.dynamic_resources=true`) to cut startup time and GC.
+- Sable physics: 1 substep/tick instead of 2 - roughly halves the current #1 server-thread
+  hotspot (`SubLevelPhysicsSystem.tick`), at the cost of slightly less accurate airship physics.
+- ServerCore activation range: enabled with conservative 64-96 block radii and Create
+  contraptions/minecarts exempt. Distant entities skip ticks; nearby gameplay is unchanged.
+- Default FPS cap: 90; on a CPU bottleneck an uncapped cap only adds frame-time variance.
 
 Launcher-side (not part of the packwiz pack) recommended JVM flags for this machine:
-`-XX:+UseZGC -XX:+ZGenerational -Xms6144m -Xmx10112m` (already using ZGC; raising only the
-initial heap avoids heap-growth churn). Keep `maxFps` around 144 rather than uncapped.
+`-XX:+UseZGC -XX:+ZGenerational -Xms6016m -Xmx11008m` (already using ZGC; raising only the
+initial heap avoids heap-growth churn).
+
+## Role-aware scaling
+
+C2ME now scales its worker count at startup from its own parallelism expression, using
+`cores`, `cpus`, `mem_gb` and `is_client`. On a 6-core client it resolves to ~2 workers;
+on a dedicated server it resolves to ~5. ServerCore's `dynamic` block also lowers entity
+ticking automatically when MSPT exceeds `target-mspt` (17 ms on client, 50 ms on server).
+
+Mods with only fixed integer configs are scaled by `tools/config_scale.py`:
+
+```bash
+python3 tools/config_scale.py --role client   # current repo state
+python3 tools/config_scale.py --role server
+```
+
+It sets DH/Sodium/World Preview thread caps, Sable physics substeps and ServerCore
+activation ranges for the chosen role and detected core count. Two ready-to-install
+variants are exported: `Latajacy Holender-0.2-client.mrpack` and
+`Latajacy Holender-0.2-server.mrpack`. After running the script, `packwiz refresh` and
+`packwiz modrinth export` are needed. Metrics/tooling files are excluded from the pack via
+`.packwizignore`.
 
 ## Crash note
 

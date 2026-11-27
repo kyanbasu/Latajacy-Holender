@@ -1,16 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".vscode/settings.json"
-hash = "32b8f92814d9b37c0f32e17756891e2ad4fd0e7eec7e3743086825543017d94c"
-
-[[files]]
 file = "README.md"
-hash = "a3b8624cd6b690a9926d236bab9c570a8e20b003e365c24118d75dc7499e79e0"
+hash = "44c2573177de2c01b3cdc205322778ac1458cd0523782eec09cd148cdd27abc4"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "a0caaa03e2030a308932c892f98a11b123d1dc2076aafc4e9354b7f98f96a78c"
+hash = "f9139d36dc0bd8b1b627ef651a3c5f48e8177a4bc4cd19e568e29fd944227108"
 
 [[files]]
 file = "config/betterclouds-v1.json"
@@ -34,7 +30,7 @@ hash = "fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "74694e73631f12c7b234945538478dccbbbcf343e1817ed98192e721559e207b"
+hash = "3623347f967208dc41e83e351c7694b7f6f01decef6d9a3cc9d17aef204fe05a"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -54,11 +50,11 @@ hash = "cf6d0fb217bdc5f95ff1057fce0938689bbbc5f8305d3e90606712d28750f302"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "9e7445ff5679e6afe19c3839796806ef9b7884089c1ce47afd362ce8b3cd29c5"
+hash = "43279d451da1674028c9556a852b39fd36c11fb6d36cfee968b7a08c9831e535"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "18b425c0c8b75e35d192e677bc428719d00fcbd4527238b85e975b770c3ec527"
+hash = "434f820615236dc7dc93e74b79181871dbb61fa8381a451a57ee3a3ac46193e6"
 
 [[files]]
 file = "config/dimensional_tears-common.toml"
@@ -146,11 +142,15 @@ hash = "0dd32460fb2fc6a4e438784924c377f11ba416732be1daff68c951e2e197d42d"
 
 [[files]]
 file = "config/sable-common.toml"
-hash = "b3b1915550c9d8f0bfd5c073cc464087c38712f5e88fb5dbb6ddd5ea28fe7c56"
+hash = "1a123c44584b2df54c2e71cd43bdb45b503c0f0a7a0c8e45b78e094b1d0f1994"
+
+[[files]]
+file = "config/sable-server.toml"
+hash = "b56b169d0f244b32f0c9a9b58e70669c78f6a8b529b9f1e56fe2ffc028b8fa3f"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "9ca8d8912d962743d57d0815733e31fd0a1dac0a208d18e6e4ac6b42ce5a3814"
+hash = "b03ec7f9abd18a2d46afd82646a9a74e70adeba39d2287e590f1cc66b3c3cdb8"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
@@ -170,7 +170,7 @@ hash = "0890e10174687c70bdc5857a4d7e6e925958d77ba42941718f4c12fb16592749"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "03dd55b445fe62f0cfebdef2a2f39054285cdaeadda75d1bfb944f30ba32c025"
+hash = "4b1730e196da9c1fb8a955d2a5dd9105c2fc247413b662aa50ecf6fd914557e9"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
@@ -186,7 +186,7 @@ hash = "907fc5c90825e092430f63b8e0cdbe7c847e43d66b4269c3943aeef19263a5b9"
 
 [[files]]
 file = "config/world_preview/config.json"
-hash = "9481ab3a38b0d79e224eaf893ae5e5a96f8d50adfa858e756b0015ef25d3ab8a"
+hash = "b4ca026ab656d84d027b60f7f0b3c73c0ffe9eeebc9a849a216989b0b6a968bc"
 
 [[files]]
 file = "icon.png"

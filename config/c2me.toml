@@ -16,7 +16,7 @@ version = 3
 #  This is used when the parallelism isn't overridden.
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb, cores, is_smt_probably_enabled
 # 
-defaultGlobalExecutorParallelismExpression = "3"
+defaultGlobalExecutorParallelismExpression = "max(1, min(if(is_smt_probably_enabled, cores, cpus) - if(is_client, 4, 1), (mem_gb - if(is_client, 2.0, 0.5)) * 2.0))"
 # ================================================================
 # (Default: LOW) Sets the thread priority preset for worker threads
 # 
@@ -50,7 +50,7 @@ defaultGlobalExecutorParallelismExpression = "3"
 threadPoolPriorityPreset = "default"
 # ================================================================
 # (Default: 3) Configures the parallelism of global executor
-globalExecutorParallelism = "3"
+globalExecutorParallelism = "default"
 
 [fixes]
 	# ================================================================

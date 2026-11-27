@@ -16,7 +16,7 @@ fullscreen:false
 gamma:1.0
 graphicsMode:1
 guiScale:2
-maxFps:144
+maxFps:90
 mipmapLevels:4
 narrator:0
 particles:0
@@ -48,8 +48,8 @@ mouseSensitivity:0.38380281690140844
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","fabric","moonlight:merged_pack","file/LowOnFire v26.2§8.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/FreshAnimations_v1.10.4.zip"]
-incompatibleResourcePacks:["file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
+resourcePacks:["vanilla","mod_resources","fabric","moonlight:merged_pack","file/LowOnFire v26.2§8.zip","spelunkery:better_vanilla_gems","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/Dramatic Skys Demo 1.5.3.36.6.zip","mod/atmospherics:resourcepacks/atmospherics_pack","file/Create Style Interface 1.21.zip","loconautics_color_variants_assets"]
+incompatibleResourcePacks:["spelunkery:better_vanilla_gems"]
 lastServer:
 lang:en_us
 chatVisibility:0

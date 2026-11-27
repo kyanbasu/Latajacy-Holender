@@ -1,13 +1,13 @@
 name = "L_Ender 's Cataclysm Delight"
-filename = "lendersdelight-1.21.1-1.0.10c.jar"
+filename = "lendersdelight-1.21.1-1.0.10d.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/a48R8AGk/versions/WNfuGV3j/lendersdelight-1.21.1-1.0.10c.jar"
+url = "https://cdn.modrinth.com/data/a48R8AGk/versions/57Kh7lwK/lendersdelight-1.21.1-1.0.10d.jar"
 hash-format = "sha512"
-hash = "ca126ee1347513245cfd5f79a9b655711541c8082bafe2f8363b1c390792a581757c2d29b2effe3b9ffe7f3294728d4e382f8f56441b1d4cd3c698428f108f65"
+hash = "81dc0b89dac1eba8419904f625f8bdf7dffa848066b869eb46ec12225ea684fde59eb8bb2f4f3ffc2394549bde21c5f86fdaf44f30cfd68d7a6fedc793bcf6d8"
 
 [update]
 [update.modrinth]
 mod-id = "a48R8AGk"
-version = "WNfuGV3j"
+version = "57Kh7lwK"

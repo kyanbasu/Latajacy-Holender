@@ -1,0 +1,13 @@
+name = "Create: Decals"
+filename = "createdecals-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14c67e4a8369d9f1684e99f04a7eeab08301cc89"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9731931
+project-id = 1820909

@@ -1,0 +1,13 @@
+name = "Create: Loconautics"
+filename = "loconautics-0.1.4BETA.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d79a687e210fa889a62d5b282ad4e48604d9732d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9821427
+project-id = 1793084

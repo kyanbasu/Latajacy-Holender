@@ -1,0 +1,13 @@
+name = "Create: Massive Turbines"
+filename = "create_massive_turbines-1.0.2-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19626b29516052dd238f28ac46c6f4322aa3f72e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9756000
+project-id = 1820834

@@ -9,6 +9,26 @@ file = "config/DistantHorizons.toml"
 hash = "ff385e3d1f68386ccb4359006e68ad75d5d8ab3363b982f8a10bec98db097b9c"
 
 [[files]]
+file = "config/JLFork/justleveling-fork.client.json"
+hash = "d0c98fb881a3f8f09d73ca4f59f9a726e6c95b5985932df73c1984c88773034c"
+
+[[files]]
+file = "config/JLFork/justleveling-fork.common.json5"
+hash = "8e089f7e9ca3f915cee15630f24f9850bf64e671b7cf8782d58bc014dc41ea58"
+
+[[files]]
+file = "config/JLFork/justleveling-fork.convergence-items.json5"
+hash = "0716d28e0479c20fbd827e8f17d325a54197e6b4ff8306d8aced31c7b9ed1a10"
+
+[[files]]
+file = "config/JLFork/justleveling-fork.lockItems.json5"
+hash = "209d45303c5c3620252829866962495d347d8a7d77e4e56e930c608e8760dfbd"
+
+[[files]]
+file = "config/JLFork/justleveling-fork.titles.json5"
+hash = "cf6864ba263beff236cdd19afa0f95f7eeb2e673e6f39bac2f6491704dfbb30e"
+
+[[files]]
 file = "config/betterclouds-v1.json"
 hash = "25ee1f631b2cdb07b42855c12e29a0d6d128f8e6cb50e6c279a7646f3a9cfc19"
 
@@ -54,7 +74,7 @@ hash = "43279d451da1674028c9556a852b39fd36c11fb6d36cfee968b7a08c9831e535"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "434f820615236dc7dc93e74b79181871dbb61fa8381a451a57ee3a3ac46193e6"
+hash = "cda626642eacec1c7e74529009219e1580f654c6d1aa82536d4386ce9bea0114"
 
 [[files]]
 file = "config/dimensional_tears-common.toml"
@@ -81,12 +101,8 @@ file = "config/iris.properties"
 hash = "dbfe2d8acd2d6075ea28bee9e0dd4a15344d9e8570222a02328f0f08b911ab23"
 
 [[files]]
-file = "config/map_atlases-client.toml"
-hash = "d1e5b515ef11059b9542485ae23d140cb311978c51506fbc60f1463726c1871a"
-
-[[files]]
-file = "config/map_atlases-common.toml"
-hash = "aace4d23cb3ce56cab30bdcdc5d74f6374d66d7190423ecf7d8c292db80768df"
+file = "config/locatorbar.json"
+hash = "ba1f66958e25db4fd3a68bcf4d9b34f1e36d7adb1b9572f2289579313659d887"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -134,7 +150,7 @@ hash = "de4f240587c736bb2a151f1fd6d14f81f68c262f88a53593b303327b8902feef"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "de5b39229c050f77d76057971dd5031321deda74ca8ade74d9c0eaef79d6dd18"
+hash = "7846a5deca6553311f824666f9ad1e473fb4129d6fc2ff1b5d36cfaba338908e"
 
 [[files]]
 file = "config/sable-client.toml"
@@ -183,6 +199,70 @@ hash = "907fc5c90825e092430f63b8e0cdbe7c847e43d66b4269c3943aeef19263a5b9"
 [[files]]
 file = "config/world_preview/config.json"
 hash = "b4ca026ab656d84d027b60f7f0b3c73c0ffe9eeebc9a849a216989b0b6a968bc"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "532b087fb902469b21ed110c9b6d6d51951368aa4f391c30987ba0a002ddb2bb"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "c7e813fb10f49f3d0aedaef0677f92ff4c4666a84d544a8d2aa3dd5e936eb026"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "icon.png"
@@ -884,6 +964,11 @@ hash = "ad797a4747adf0a547aff1f6bdb0c99d27b96324356fd0420fe9167e526d7185"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "8a133f808bce32c9a28edde809ec726800d5afa5c52458ed4befbd862dc9a013"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
 metafile = true
@@ -1094,11 +1179,6 @@ hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
-file = "mods/map-atlases-forge.pw.toml"
-hash = "b54addad8fd6bdd9ee141d740de8c346b1744258cb8c8ab663a61054e48e308e"
-metafile = true
-
-[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
 metafile = true
@@ -1256,6 +1336,11 @@ metafile = true
 [[files]]
 file = "mods/reliquified-artifacts.pw.toml"
 hash = "6332130dba21e2ee04b9fae4ecc88a652a5bb39fc7423f14723362969badece5"
+metafile = true
+
+[[files]]
+file = "mods/reworked-locator-bar.pw.toml"
+hash = "dfabefb181829e43daa5cc4efaaa116e44a7d7169cfed4b114fab909201597cd"
 metafile = true
 
 [[files]]
@@ -1521,6 +1606,16 @@ metafile = true
 [[files]]
 file = "mods/world-preview-neoforged-(unofficial).pw.toml"
 hash = "e7b937eee11430edcddc8985d59c7fddb8bd818a04b74d1b5f69cb19cb216320"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "e97cb865d7a8c8310905d9140899fa55ea23c3fff2e23a17255ce2c162322ad7"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]

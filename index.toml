@@ -102,7 +102,7 @@ hash = "dbfe2d8acd2d6075ea28bee9e0dd4a15344d9e8570222a02328f0f08b911ab23"
 
 [[files]]
 file = "config/locatorbar.json"
-hash = "ba1f66958e25db4fd3a68bcf4d9b34f1e36d7adb1b9572f2289579313659d887"
+hash = "14bc7c254ed7d79d2367d34d494c9ff2f9e4c83c79691103c8737c5b21c1a393"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -981,6 +981,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "2cfad52dbc5bd12df95bf3b3f8de574bb7d185a90caaf32829a9b19bc98aebe8"
 metafile = true
 
 [[files]]
